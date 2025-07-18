@@ -10,7 +10,7 @@ parallel-jobs = 1
 arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 included-patches = "'Permanent repeat'"
-excluded-patches = "'GmsCore support' 'Spoof client'"
+excluded-patches = "'Spoof client'"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
