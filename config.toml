@@ -7,10 +7,11 @@ parallel-jobs = 1
 # you can use rvmm-config-gen to generate a config
 
 [Music]
+arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 included-patches = "'Permanent repeat'"
 excluded-patches = "'GmsCore support' 'Spoof client'"
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
-excluded-patches = "'Swipe controls' 'Hide related video overlay' 'Hide timestamp' 'Custom player overlay opacity' 'Wide search bar' 'Open Shorts in regular player' 'Spoof app version' 'Change start page' 'Theme' 'Alternative thumbnails' 'Bypass image region restrictions' 'Spoof device dimensions' 'Check watch history domain name resolution' 'GmsCore support' 'Spoof video streams'"
+excluded-patches = "'Swipe controls' 'Hide related video overlay' 'Hide timestamp' 'Custom player overlay opacity' 'Wide search bar' 'Open Shorts in regular player' 'Spoof app version' 'Change start page' 'Theme' 'Alternative thumbnails' 'Bypass image region restrictions' 'Spoof device dimensions' 'Check watch history domain name resolution' 'Spoof video streams'"
