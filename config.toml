@@ -10,6 +10,7 @@ parallel-jobs = 1
 build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 included-patches = "'Permanent repeat'"
 excluded-patches = "'Spoof client'"
 
@@ -17,4 +18,5 @@ excluded-patches = "'Spoof client'"
 version = "auto"
 build-mode = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 excluded-patches = "'Swipe controls' 'Hide related video overlay' 'Hide timestamp' 'Custom player overlay opacity' 'Wide search bar' 'Open Shorts in regular player' 'Spoof app version' 'Change start page' 'Theme' 'Alternative thumbnails' 'Bypass image region restrictions' 'Spoof device dimensions' 'Check watch history domain name resolution' 'Spoof video streams'"
