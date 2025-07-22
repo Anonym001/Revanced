@@ -16,8 +16,10 @@ included-patches = "'Permanent repeat'"
 excluded-patches = "'Spoof client'"
 
 [YouTube]
-version = "latest"
 build-mode = "module"
+version = "latest"
+arch = "arm64-v8a"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+included-patches = ""
 excluded-patches = "'Swipe controls' 'Hide related video overlay' 'Hide timestamp' 'Custom player overlay opacity' 'Wide search bar' 'Open Shorts in regular player' 'Spoof app version' 'Change start page' 'Theme' 'Alternative thumbnails' 'Bypass image region restrictions' 'Spoof device dimensions' 'Check watch history domain name resolution' 'Spoof video streams'"
