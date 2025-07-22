@@ -8,6 +8,7 @@ parallel-jobs = 1
 
 [Music]
 build-mode = "module"
+version = "latest"
 arch = "both"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -15,7 +16,7 @@ included-patches = "'Permanent repeat'"
 excluded-patches = "'Spoof client'"
 
 [YouTube]
-version = "auto"
+version = "latest"
 build-mode = "module"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
